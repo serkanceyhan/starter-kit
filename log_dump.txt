@@ -1,0 +1,200 @@
+﻿                test
+            </div>
+
+            <p style="margin-top: 20px; font-size: 0.9em; color: #777;">Bu e-posta Tamirat.com Ã¼zerinden gÃ¶nderilmiÅŸtir.</p>
+        </div>
+    </div>
+</body>
+</html>
+  
+[2025-12-17 20:11:28] local.INFO: Sending Quote Email with data: {"company_name":"Serkan","name":"Ceyhan","email":"ceyhan-serkan@hotmail.com","service_type":"Sandalye DÃ¶ÅŸeme & Yenileme","message":"test"} 
+[2025-12-17 20:14:05] local.INFO: Sending Quote Email {"validated_data":{"company_name":"Serkan","name":"Ceyhan","email":"ceyhan-serkan@hotmail.com","service_type":"Sandalye DÃ¶ÅŸeme & Yenileme","message":"test"},"has_file":true,"file_path":"C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\storage\\app/quotes/ICdrtZFU4Fq4dGlnZFRxZwRiEOa5e8tY6eSVz71I.png"} 
+[2025-12-17 20:14:19] local.INFO: Sending Quote Email {"validated_data":{"company_name":"Serkan","name":"Ceyhan","email":"ceyhan-serkan@hotmail.com","service_type":"Sandalye DÃ¶ÅŸeme & Yenileme","message":"test"},"has_file":false,"file_path":"none"} 
+[2025-12-17 20:14:19] local.DEBUG: From: Laravel <hello@example.com>
+To: ceyhan-serkan@hotmail.com
+Subject: Yeni Teklif Talebi - Tamirat
+MIME-Version: 1.0
+Date: Wed, 17 Dec 2025 20:14:19 +0000
+Message-ID: <c3292118f5d407a949d62cbf58305fee@example.com>
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Yeni Teklif Talebi</title>
+</head>
+<body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
+    <div style="background-color: #f4f4f4; padding: 20px;">
+        <div style="background-color: #fff; padding: 20px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+            <h2 style="color: #2463eb; border-bottom: 2px solid #2463eb; padding-bottom: 10px;">Yeni Teklif Talebi</h2>
+            
+            <p><strong>Åžirket AdÄ±:</strong> Serkan</p>
+            <p><strong>Ad Soyad:</strong> Ceyhan</p>
+            <p><strong>E-posta:</strong> ceyhan-serkan@hotmail.com</p>
+            <p><strong>Hizmet TÃ¼rÃ¼:</strong> Sandalye DÃ¶ÅŸeme &amp; Yenileme</p>
+            
+            <div style="margin-top: 20px; background-color: #f9f9f9; padding: 15px; border-radius: 5px;">
+                <strong>Mesaj / Detaylar:</strong><br>
+                test
+            </div>
+
+            <p style="margin-top: 20px; font-size: 0.9em; color: #777;">Bu e-posta Tamirat.com Ã¼zerinden gÃ¶nderilmiÅŸtir.</p>
+        </div>
+    </div>
+</body>
+</html>
+  
+[2025-12-17 20:14:35] local.INFO: Sending Quote Email {"validated_data":{"company_name":"Serkan","name":"Ceyhan","email":"ceyhan-serkan@hotmail.com","service_type":"Sandalye DÃ¶ÅŸeme & Yenileme","message":"test"},"has_file":true,"file_path":"C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\storage\\app/quotes/jyNCRSI4Ru8qIQcnLHUQwKvNvw8bIneTS49dZZO5.png"} 
+[2025-12-17 20:24:15] local.INFO: Sending Quote Email {"validated_data":{"company_name":"Serkan","name":"Ceyhan","email":"ceyhan-serkan@hotmail.com","service_type":"Sandalye DÃ¶ÅŸeme & Yenileme","message":"test"},"has_file":true,"file_path":"C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\storage\\app/quotes/bdNzYdX5s3QaQN65jdzkfIjtUGlfaDN2QKnOvF7A.png"} 
+[2025-12-17 20:24:15] local.ERROR: Quote submission failed {"error":"Trying to access array offset on null","trace":"#0 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(258): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'Trying to acces...', 'C:\\\\Users\\\\ceyha\\\\...', 129)
+#1 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\symfony\\mime\\Part\\TextPart.php(129): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->{closure:Illuminate\\Foundation\\Bootstrap\\HandleExceptions::forwardsTo():257}(2, 'Trying to acces...', 'C:\\\\Users\\\\ceyha\\\\...', 129)
+#2 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\symfony\\mime\\Part\\TextPart.php(148): Symfony\\Component\\Mime\\Part\\TextPart->getBody()
+#3 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\symfony\\mime\\Part\\AbstractPart.php(43): Symfony\\Component\\Mime\\Part\\TextPart->bodyToString()
+#4 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\symfony\\mime\\Part\\AbstractMultipartPart.php(59): Symfony\\Component\\Mime\\Part\\AbstractPart->toString()
+#5 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\symfony\\mime\\Part\\AbstractPart.php(43): Symfony\\Component\\Mime\\Part\\AbstractMultipartPart->bodyToString()
+#6 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\symfony\\mime\\Message.php(112): Symfony\\Component\\Mime\\Part\\AbstractPart->toString()
+#7 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Mail\\Transport\\LogTransport.php(37): Symfony\\Component\\Mime\\Message->toString()
+#8 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Mail\\Mailer.php(584): Illuminate\\Mail\\Transport\\LogTransport->send(Object(Symfony\\Component\\Mime\\Email), Object(Symfony\\Component\\Mailer\\DelayedEnvelope))
+#9 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Mail\\Mailer.php(331): Illuminate\\Mail\\Mailer->sendSymfonyMessage(Object(Symfony\\Component\\Mime\\Email))
+#10 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Mail\\Mailable.php(207): Illuminate\\Mail\\Mailer->send('emails.quote-re...', Array, Object(Closure))
+#11 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Traits\\Localizable.php(19): Illuminate\\Mail\\Mailable->{closure:Illuminate\\Mail\\Mailable::send():200}()
+#12 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Mail\\Mailable.php(200): Illuminate\\Mail\\Mailable->withLocale(NULL, Object(Closure))
+#13 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Mail\\Mailer.php(353): Illuminate\\Mail\\Mailable->send(Object(Illuminate\\Mail\\Mailer))
+#14 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Mail\\Mailer.php(300): Illuminate\\Mail\\Mailer->sendMailable(Object(App\\Mail\\QuoteRequestMail))
+#15 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Mail\\PendingMail.php(123): Illuminate\\Mail\\Mailer->send(Object(App\\Mail\\QuoteRequestMail))
+#16 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\app\\Http\\Controllers\\QuoteController.php(41): Illuminate\\Mail\\PendingMail->send(Object(App\\Mail\\QuoteRequestMail))
+#17 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(46): App\\Http\\Controllers\\QuoteController->store(Object(Illuminate\\Http\\Request))
+#18 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(265): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\QuoteController), 'store')
+#19 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(211): Illuminate\\Routing\\Route->runController()
+#20 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(822): Illuminate\\Routing\\Route->run()
+#21 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Router->{closure:Illuminate\\Routing\\Router::runRouteWithinStack():821}(Object(Illuminate\\Http\\Request))
+#22 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->{closure:Illuminate\\Pipeline\\Pipeline::prepareDestination():178}(Object(Illuminate\\Http\\Request))
+#23 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(219): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#24 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(87): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():194}:195}(Object(Illuminate\\Http\\Request))
+#25 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#26 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(48): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():194}:195}(Object(Illuminate\\Http\\Request))
+#27 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(219): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#28 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(120): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():194}:195}(Object(Illuminate\\Http\\Request))
+#29 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(63): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#30 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(219): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#31 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(36): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():194}:195}(Object(Illuminate\\Http\\Request))
+#32 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(219): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#33 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(74): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():194}:195}(Object(Illuminate\\Http\\Request))
+#34 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(219): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#35 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(137): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():194}:195}(Object(Illuminate\\Http\\Request))
+#36 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(821): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#37 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(800): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#38 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(764): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#39 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(753): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#40 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(200): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#41 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Kernel->{closure:Illuminate\\Foundation\\Http\\Kernel::dispatchToRouter():197}(Object(Illuminate\\Http\\Request))
+#42 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\livewire\\livewire\\src\\Features\\SupportDisablingBackButtonCache\\DisableBackButtonCacheMiddleware.php(19): Illuminate\\Pipeline\\Pipeline->{closure:Illuminate\\Pipeline\\Pipeline::prepareDestination():178}(Object(Illuminate\\Http\\Request))
+#43 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(219): Livewire\\Features\\SupportDisablingBackButtonCache\\DisableBackButtonCacheMiddleware->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#44 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():194}:195}(Object(Illuminate\\Http\\Request))
+#45 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#46 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#47 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():194}:195}(Object(Illuminate\\Http\\Request))
+#48 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(51): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#49 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#50 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():194}:195}(Object(Illuminate\\Http\\Request))
+#51 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#52 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(109): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():194}:195}(Object(Illuminate\\Http\\Request))
+#53 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#54 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(48): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():194}:195}(Object(Illuminate\\Http\\Request))
+#55 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(219): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#56 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():194}:195}(Object(Illuminate\\Http\\Request))
+#57 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(219): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#58 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks.php(22): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():194}:195}(Object(Illuminate\\Http\\Request))
+#59 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#60 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\ValidatePathEncoding.php(26): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():194}:195}(Object(Illuminate\\Http\\Request))
+#61 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePathEncoding->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#62 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(137): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():194}:195}(Object(Illuminate\\Http\\Request))
+#63 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#64 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#65 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1220): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#66 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\public\\index.php(20): Illuminate\\Foundation\\Application->handleRequest(Object(Illuminate\\Http\\Request))
+#67 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(23): require_once('C:\\\\Users\\\\ceyha\\\\...')
+#68 {main}"} 
+[2025-12-17 20:27:08] testing.INFO: Sending Quote Email {"validated_data":{"company_name":"Test Co","name":"Tester","email":"test@example.com","service_type":"Service","message":"Hello"},"has_file":true,"file_path":"C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\storage\\app/quotes/bOxx73pcf532pyUCN5WGrWGonLRPb3bRbRqGsCNZ.jpg"} 
+[2025-12-17 20:27:38] testing.INFO: Sending Quote Email {"validated_data":{"company_name":"Test Co","name":"Tester","email":"test@example.com","service_type":"Service","message":"Hello"},"has_file":true,"file_path":"C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\storage\\app/quotes/jm4hIOStBaToyTtsK2xn4Qferpgxcvw1Zl0GTGLz.jpg"} 
+[2025-12-17 20:27:38] testing.ERROR: Quote submission failed {"error":"Trying to access array offset on null","trace":"#0 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(258): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'Trying to acces...', 'C:\\\\Users\\\\ceyha\\\\...', 129)
+#1 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\symfony\\mime\\Part\\TextPart.php(129): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->{closure:Illuminate\\Foundation\\Bootstrap\\HandleExceptions::forwardsTo():257}(2, 'Trying to acces...', 'C:\\\\Users\\\\ceyha\\\\...', 129)
+#2 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\symfony\\mime\\Part\\TextPart.php(148): Symfony\\Component\\Mime\\Part\\TextPart->getBody()
+#3 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\symfony\\mime\\Part\\AbstractPart.php(43): Symfony\\Component\\Mime\\Part\\TextPart->bodyToString()
+#4 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\symfony\\mime\\Part\\AbstractMultipartPart.php(59): Symfony\\Component\\Mime\\Part\\AbstractPart->toString()
+#5 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\symfony\\mime\\Part\\AbstractPart.php(43): Symfony\\Component\\Mime\\Part\\AbstractMultipartPart->bodyToString()
+#6 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\symfony\\mime\\Message.php(112): Symfony\\Component\\Mime\\Part\\AbstractPart->toString()
+#7 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Mail\\Transport\\LogTransport.php(37): Symfony\\Component\\Mime\\Message->toString()
+#8 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Mail\\Mailer.php(584): Illuminate\\Mail\\Transport\\LogTransport->send(Object(Symfony\\Component\\Mime\\Email), Object(Symfony\\Component\\Mailer\\DelayedEnvelope))
+#9 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Mail\\Mailer.php(331): Illuminate\\Mail\\Mailer->sendSymfonyMessage(Object(Symfony\\Component\\Mime\\Email))
+#10 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Mail\\Mailable.php(207): Illuminate\\Mail\\Mailer->send('emails.quote-re...', Array, Object(Closure))
+#11 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Traits\\Localizable.php(19): Illuminate\\Mail\\Mailable->{closure:Illuminate\\Mail\\Mailable::send():200}()
+#12 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Mail\\Mailable.php(200): Illuminate\\Mail\\Mailable->withLocale(NULL, Object(Closure))
+#13 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Mail\\Mailer.php(353): Illuminate\\Mail\\Mailable->send(Object(Illuminate\\Mail\\Mailer))
+#14 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Mail\\Mailer.php(300): Illuminate\\Mail\\Mailer->sendMailable(Object(App\\Mail\\QuoteRequestMail))
+#15 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Mail\\PendingMail.php(123): Illuminate\\Mail\\Mailer->send(Object(App\\Mail\\QuoteRequestMail))
+#16 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\app\\Http\\Controllers\\QuoteController.php(41): Illuminate\\Mail\\PendingMail->send(Object(App\\Mail\\QuoteRequestMail))
+#17 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(46): App\\Http\\Controllers\\QuoteController->store(Object(Illuminate\\Http\\Request))
+#18 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(265): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\QuoteController), 'store')
+#19 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(211): Illuminate\\Routing\\Route->runController()
+#20 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(822): Illuminate\\Routing\\Route->run()
+#21 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Router->{closure:Illuminate\\Routing\\Router::runRouteWithinStack():821}(Object(Illuminate\\Http\\Request))
+#22 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->{closure:Illuminate\\Pipeline\\Pipeline::prepareDestination():178}(Object(Illuminate\\Http\\Request))
+#23 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(219): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#24 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(87): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():194}:195}(Object(Illuminate\\Http\\Request))
+#25 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#26 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(48): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():194}:195}(Object(Illuminate\\Http\\Request))
+#27 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(219): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#28 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(120): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():194}:195}(Object(Illuminate\\Http\\Request))
+#29 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(63): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#30 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(219): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#31 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(36): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():194}:195}(Object(Illuminate\\Http\\Request))
+#32 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(219): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#33 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(74): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():194}:195}(Object(Illuminate\\Http\\Request))
+#34 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(219): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#35 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(137): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():194}:195}(Object(Illuminate\\Http\\Request))
+#36 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(821): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#37 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(800): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#38 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(764): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#39 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(753): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#40 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(200): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#41 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Kernel->{closure:Illuminate\\Foundation\\Http\\Kernel::dispatchToRouter():197}(Object(Illuminate\\Http\\Request))
+#42 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\livewire\\livewire\\src\\Features\\SupportDisablingBackButtonCache\\DisableBackButtonCacheMiddleware.php(19): Illuminate\\Pipeline\\Pipeline->{closure:Illuminate\\Pipeline\\Pipeline::prepareDestination():178}(Object(Illuminate\\Http\\Request))
+#43 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(219): Livewire\\Features\\SupportDisablingBackButtonCache\\DisableBackButtonCacheMiddleware->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#44 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():194}:195}(Object(Illuminate\\Http\\Request))
+#45 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#46 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#47 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():194}:195}(Object(Illuminate\\Http\\Request))
+#48 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(51): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#49 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#50 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():194}:195}(Object(Illuminate\\Http\\Request))
+#51 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#52 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(109): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():194}:195}(Object(Illuminate\\Http\\Request))
+#53 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#54 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(48): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():194}:195}(Object(Illuminate\\Http\\Request))
+#55 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(219): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#56 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():194}:195}(Object(Illuminate\\Http\\Request))
+#57 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(219): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#58 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks.php(22): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():194}:195}(Object(Illuminate\\Http\\Request))
+#59 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(219): Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#60 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\ValidatePathEncoding.php(26): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():194}:195}(Object(Illuminate\\Http\\Request))
+#61 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(219): Illuminate\\Http\\Middleware\\ValidatePathEncoding->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#62 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(137): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():194}:195}(Object(Illuminate\\Http\\Request))
+#63 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#64 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#65 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Testing\\Concerns\\MakesHttpRequests.php(607): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#66 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Testing\\Concerns\\MakesHttpRequests.php(573): Illuminate\\Foundation\\Testing\\TestCase->call('POST', '/quote', Array, Array, Array, Array, '{\"company_name\"...')
+#67 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Testing\\Concerns\\MakesHttpRequests.php(411): Illuminate\\Foundation\\Testing\\TestCase->json('POST', '/quote', Array, Array, 0)
+#68 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\tests\\Feature\\QuoteUploadTest.php(27): Illuminate\\Foundation\\Testing\\TestCase->postJson('/quote', Array)
+#69 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\phpunit\\phpunit\\src\\Framework\\TestCase.php(1317): Tests\\Feature\\QuoteUploadTest->test_quote_submission_with_file_crashes()
+#70 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\phpunit\\phpunit\\src\\Framework\\TestCase.php(517): PHPUnit\\Framework\\TestCase->runTest()
+#71 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\phpunit\\phpunit\\src\\Framework\\TestRunner\\TestRunner.php(99): PHPUnit\\Framework\\TestCase->runBare()
+#72 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\phpunit\\phpunit\\src\\Framework\\TestCase.php(357): PHPUnit\\Framework\\TestRunner->run(Object(Tests\\Feature\\QuoteUploadTest))
+#73 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\phpunit\\phpunit\\src\\Framework\\TestSuite.php(374): PHPUnit\\Framework\\TestCase->run()
+#74 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\phpunit\\phpunit\\src\\TextUI\\TestRunner.php(64): PHPUnit\\Framework\\TestSuite->run()
+#75 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\phpunit\\phpunit\\src\\TextUI\\Application.php(229): PHPUnit\\TextUI\\TestRunner->run(Object(PHPUnit\\TextUI\\Configuration\\Configuration), Object(PHPUnit\\Runner\\ResultCache\\DefaultResultCache), Object(PHPUnit\\Framework\\TestSuite))
+#76 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\pestphp\\pest\\src\\Kernel.php(103): PHPUnit\\TextUI\\Application->run(Array)
+#77 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\pestphp\\pest\\bin\\pest(184): Pest\\Kernel->handle(Array, Array)
+#78 C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\pestphp\\pest\\bin\\pest(192): {closure:C:\\Users\\ceyha\\Desktop\\repo\\tamiratt\\vendor\\pestphp\\pest\\bin\\pest:18}()
+#79 {main}"} 
